@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD366DF252B99FD00386812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD366DE252B99FD00386812 /* AppDelegate.swift */; };
+		4DD366E1252B99FD00386812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD366E0252B99FD00386812 /* SceneDelegate.swift */; };
+		4DD366E3252B99FD00386812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD366E2252B99FD00386812 /* ViewController.swift */; };
+		4DD366E6252B99FD00386812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD366E4252B99FD00386812 /* Main.storyboard */; };
+		4DD366E8252B9A0100386812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD366E7252B9A0100386812 /* Assets.xcassets */; };
+		4DD366EB252B9A0100386812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD366E9252B9A0100386812 /* LaunchScreen.storyboard */; };
+		4DD366F6252B9A0100386812 /* MorseTorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD366F5252B9A0100386812 /* MorseTorchTests.swift */; };
+		4DD36701252B9A0100386812 /* MorseTorchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD36700252B9A0100386812 /* MorseTorchUITests.swift */; };
+		4DD36712252BB73100386812 /* MorseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD36711252BB73100386812 /* MorseCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD366F2252B9A0100386812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD366D3252B99FD00386812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD366DA252B99FD00386812;
+			remoteInfo = MorseTorch;
+		};
+		4DD366FD252B9A0100386812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD366D3252B99FD00386812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD366DA252B99FD00386812;
+			remoteInfo = MorseTorch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DD366DB252B99FD00386812 /* MorseTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD366DE252B99FD00386812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD366E0252B99FD00386812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DD366E2252B99FD00386812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD366E5252B99FD00386812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD366E7252B9A0100386812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD366EA252B9A0100386812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD366EC252B9A0100386812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD366F1252B9A0100386812 /* MorseTorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseTorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD366F5252B9A0100386812 /* MorseTorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTorchTests.swift; sourceTree = "<group>"; };
+		4DD366F7252B9A0100386812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD366FC252B9A0100386812 /* MorseTorchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseTorchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD36700252B9A0100386812 /* MorseTorchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTorchUITests.swift; sourceTree = "<group>"; };
+		4DD36702252B9A0100386812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD36711252BB73100386812 /* MorseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD366D8252B99FD00386812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366EE252B9A0100386812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366F9252B9A0100386812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD366D2252B99FD00386812 = {
+			isa = PBXGroup;
+			children = (
+				4DD366DD252B99FD00386812 /* MorseTorch */,
+				4DD366F4252B9A0100386812 /* MorseTorchTests */,
+				4DD366FF252B9A0100386812 /* MorseTorchUITests */,
+				4DD366DC252B99FD00386812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD366DC252B99FD00386812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD366DB252B99FD00386812 /* MorseTorch.app */,
+				4DD366F1252B9A0100386812 /* MorseTorchTests.xctest */,
+				4DD366FC252B9A0100386812 /* MorseTorchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD366DD252B99FD00386812 /* MorseTorch */ = {
+			isa = PBXGroup;
+			children = (
+				4DD366DE252B99FD00386812 /* AppDelegate.swift */,
+				4DD366E0252B99FD00386812 /* SceneDelegate.swift */,
+				4DD366E2252B99FD00386812 /* ViewController.swift */,
+				4DD366E4252B99FD00386812 /* Main.storyboard */,
+				4DD366E7252B9A0100386812 /* Assets.xcassets */,
+				4DD366E9252B9A0100386812 /* LaunchScreen.storyboard */,
+				4DD366EC252B9A0100386812 /* Info.plist */,
+				4DD36711252BB73100386812 /* MorseCode.swift */,
+			);
+			path = MorseTorch;
+			sourceTree = "<group>";
+		};
+		4DD366F4252B9A0100386812 /* MorseTorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD366F5252B9A0100386812 /* MorseTorchTests.swift */,
+				4DD366F7252B9A0100386812 /* Info.plist */,
+			);
+			path = MorseTorchTests;
+			sourceTree = "<group>";
+		};
+		4DD366FF252B9A0100386812 /* MorseTorchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD36700252B9A0100386812 /* MorseTorchUITests.swift */,
+				4DD36702252B9A0100386812 /* Info.plist */,
+			);
+			path = MorseTorchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD366DA252B99FD00386812 /* MorseTorch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD36705252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorch" */;
+			buildPhases = (
+				4DD366D7252B99FD00386812 /* Sources */,
+				4DD366D8252B99FD00386812 /* Frameworks */,
+				4DD366D9252B99FD00386812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTorch;
+			productName = MorseTorch;
+			productReference = 4DD366DB252B99FD00386812 /* MorseTorch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD366F0252B9A0100386812 /* MorseTorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD36708252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorchTests" */;
+			buildPhases = (
+				4DD366ED252B9A0100386812 /* Sources */,
+				4DD366EE252B9A0100386812 /* Frameworks */,
+				4DD366EF252B9A0100386812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD366F3252B9A0100386812 /* PBXTargetDependency */,
+			);
+			name = MorseTorchTests;
+			productName = MorseTorchTests;
+			productReference = 4DD366F1252B9A0100386812 /* MorseTorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DD366FB252B9A0100386812 /* MorseTorchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD3670B252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorchUITests" */;
+			buildPhases = (
+				4DD366F8252B9A0100386812 /* Sources */,
+				4DD366F9252B9A0100386812 /* Frameworks */,
+				4DD366FA252B9A0100386812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD366FE252B9A0100386812 /* PBXTargetDependency */,
+			);
+			name = MorseTorchUITests;
+			productName = MorseTorchUITests;
+			productReference = 4DD366FC252B9A0100386812 /* MorseTorchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD366D3252B99FD00386812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4DD366DA252B99FD00386812 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4DD366F0252B9A0100386812 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DD366DA252B99FD00386812;
+					};
+					4DD366FB252B9A0100386812 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DD366DA252B99FD00386812;
+					};
+				};
+			};
+			buildConfigurationList = 4DD366D6252B99FD00386812 /* Build configuration list for PBXProject "MorseTorch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD366D2252B99FD00386812;
+			productRefGroup = 4DD366DC252B99FD00386812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD366DA252B99FD00386812 /* MorseTorch */,
+				4DD366F0252B9A0100386812 /* MorseTorchTests */,
+				4DD366FB252B9A0100386812 /* MorseTorchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD366D9252B99FD00386812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD366EB252B9A0100386812 /* LaunchScreen.storyboard in Resources */,
+				4DD366E8252B9A0100386812 /* Assets.xcassets in Resources */,
+				4DD366E6252B99FD00386812 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366EF252B9A0100386812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366FA252B9A0100386812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD366D7252B99FD00386812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD366E3252B99FD00386812 /* ViewController.swift in Sources */,
+				4DD366DF252B99FD00386812 /* AppDelegate.swift in Sources */,
+				4DD366E1252B99FD00386812 /* SceneDelegate.swift in Sources */,
+				4DD36712252BB73100386812 /* MorseCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366ED252B9A0100386812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD366F6252B9A0100386812 /* MorseTorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD366F8252B9A0100386812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD36701252B9A0100386812 /* MorseTorchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD366F3252B9A0100386812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD366DA252B99FD00386812 /* MorseTorch */;
+			targetProxy = 4DD366F2252B9A0100386812 /* PBXContainerItemProxy */;
+		};
+		4DD366FE252B9A0100386812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD366DA252B99FD00386812 /* MorseTorch */;
+			targetProxy = 4DD366FD252B9A0100386812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD366E4252B99FD00386812 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD366E5252B99FD00386812 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD366E9252B9A0100386812 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD366EA252B9A0100386812 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD36703252B9A0100386812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD36704252B9A0100386812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD36706252B9A0100386812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD36707252B9A0100386812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DD36709252B9A0100386812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorseTorch.app/MorseTorch";
+			};
+			name = Debug;
+		};
+		4DD3670A252B9A0100386812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorseTorch.app/MorseTorch";
+			};
+			name = Release;
+		};
+		4DD3670C252B9A0100386812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorseTorch;
+			};
+			name = Debug;
+		};
+		4DD3670D252B9A0100386812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6NBLTA2DQ;
+				INFOPLIST_FILE = MorseTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelSpagna.MorseTorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MorseTorch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD366D6252B99FD00386812 /* Build configuration list for PBXProject "MorseTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD36703252B9A0100386812 /* Debug */,
+				4DD36704252B9A0100386812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD36705252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD36706252B9A0100386812 /* Debug */,
+				4DD36707252B9A0100386812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD36708252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD36709252B9A0100386812 /* Debug */,
+				4DD3670A252B9A0100386812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD3670B252B9A0100386812 /* Build configuration list for PBXNativeTarget "MorseTorchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD3670C252B9A0100386812 /* Debug */,
+				4DD3670D252B9A0100386812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD366D3252B99FD00386812 /* Project object */;
+}
